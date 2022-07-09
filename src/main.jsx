@@ -1,10 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { HooksApp } from "./HooksApp";
+import "./index.css";
+import { CounterApp } from "./useState/CounterApp";
+import { CounterCustomHook } from "./useState/CounterCustomHook";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
+    <HooksApp />
+    <CounterApp />
+    <CounterCustomHook />
   </React.StrictMode>
-)
+);
