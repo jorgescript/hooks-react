@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { MultiplesHooks } from "./examples/MultiplesHooks";
 import { HooksApp } from "./HooksApp";
 import "./index.css";
 import { SimpleForm } from "./useEffect/SimpleForm";
@@ -15,5 +16,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <hr />
     <SimpleForm />
     <hr />
+    <MultiplesHooks />
   </React.StrictMode>
 );
